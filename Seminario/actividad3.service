@@ -1,0 +1,9 @@
+[Unit]
+Description=Imprimer saludo y la fecha 
+
+[Service]
+Type=simple
+ExecStart=/home/javier/Escritorio/Semestre2024/Seminario/actividad3.sh
+
+[Install]
+WantedBy=multi-user.target
